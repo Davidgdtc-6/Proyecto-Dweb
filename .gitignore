@@ -1,0 +1,6 @@
+# Ignorar el archivo de configuración con credenciales
+config.php
+
+# Ignorar archivos de base de datos
+*.sql
+Sistema-DB.sql
