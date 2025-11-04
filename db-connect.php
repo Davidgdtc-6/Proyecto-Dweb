@@ -19,7 +19,3 @@ if ($conn->connect_error) {
 // 4. Opcional pero recomendado: Setear el charset a UTF-8
 // Esto evita problemas con tildes o 'ñ' en los datos.
 $conn->set_charset("utf8");
-
-// No cerramos el '?>' aquí. Es una buena práctica en PHP
-// cuando el archivo es *solo* código PHP, para evitar
-// enviar espacios en blanco accidentales al navegador.

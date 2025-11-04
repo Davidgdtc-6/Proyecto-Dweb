@@ -1,6 +1,17 @@
 <?php
-// ¡Iniciamos sesión siempre al principio!
+// ----- CÓDIGO DE DEBUG -----
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+// ----- FIN DE DEBUG -----
+
+// El resto de tu código...
 session_start();
+require 'db-connect.php';
+// ...etc
+?>
+
+<?php
 
 // 1. Incluimos la conexión a la BD
 require 'db-connect.php';
